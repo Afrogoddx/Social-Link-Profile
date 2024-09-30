@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    height: 385px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 10%);
+    width: 240px;
+}
+
+.card .content img {
+    margin: 24px 0px 13px;
+    border-radius: 100px;
+    width: 25%;
+}
+
+.card .content .country {
+    font-family: arial;
+    font-size: 12px;
+    margin: 0px 0px 15px;
+    color: hsl(75, 94%, 57%);
+}
+
+.card .content h3 {
+    margin: 0px 0px 8px;
+    font-size: 15px;
+    font-family: arial;
+    color: hsl(0, 0%, 100%);
+}
+
+.card .content p {
+    font-family: Arial;
+    color: hsl(0, 0%, 98%);
+}
+
+.card .content .message {
+    margin: 0px 0px 8px;
+    font-size: 10px;
+    color: hsl(0, 0%, 98%);
+}
+
+.card .content .twitter {
+    padding: 6px;
+    margin: 10px 30px;
+    height: 25px;
+    font-size: 10px;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+}
+
+.card .content .linkedin {
+    padding: 6px;
+    margin: 10px 30px;
+    height: 25px;
+    font-size: 10px;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: bold;
+    font-family: arial;
+}
+
+.card .content .instagram {
+    padding: 6px;
+    margin: 10px 30px;
+    height: 25px;
+    font-size: 10px;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: bold;
+    font-family: arial;
+}
+
+.card .content .frontend {
+    padding: 6px;
+    margin: 10px 30px;
+    height: 25px;
+    font-size: 10px;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: bold;
+    font-family: arial;
+}
+
+.card .content .github {
+    padding: 6px;
+    margin: 10px 30px;
+    height: 25px;
+    font-size: 10px;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: bold;
+    font-family: arial;
+}
